@@ -39,7 +39,7 @@ int main ()
 				n_1 = n;
 				for (int i = 1; i<m; i++) {
 					cout <<" * " <<n;
-					n_n = n_1 + n;
+					n_n = n_1 * n;
 					n_1 = n_n;
 				}
 				cout <<" = " <<n_n <<endl;
